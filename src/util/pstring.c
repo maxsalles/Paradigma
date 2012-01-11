@@ -59,8 +59,8 @@ char* pstAddChar (char* string, unsigned position, char character) {
 char* pstCharApend (char** string, char character) {
     if (string) {
         char* string_aux = (char*) realloc(
-			*string, sizeof(char*) * (strlen(*string) + 1)
-		);
+            *string, sizeof(char*) * (strlen(*string) + 1)
+        );
 
         if (string_aux) {
             if (*string != string_aux) {

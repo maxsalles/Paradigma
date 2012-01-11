@@ -9,6 +9,7 @@
 #define _PRD_PTK_IMP
 
 #include <string.h>
+
 #include "util/pstring.h"
 
 /* ========================================================================== */
